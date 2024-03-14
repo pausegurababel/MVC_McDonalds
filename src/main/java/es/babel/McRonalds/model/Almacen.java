@@ -2,22 +2,23 @@ package es.babel.McRonalds.model;
 
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class Almacen {
 
-    private List<Producto> listProductos;
+    private HashMap<Integer, Producto> mapProductos;
 
     public Almacen(){
-        this.listProductos = new ArrayList<>();
+        this.mapProductos = new HashMap<>();
     }
 
-    public List<Producto> getListProductos(){
-        return listProductos;
+    public HashMap<Integer, Producto> getMapProductos(){
+        return mapProductos;
     }
 
-    public void anadirListProductos(Producto producto){
-        this.listProductos.add(producto);
+    public void anadirProducto(Producto producto){
+        this.mapProductos.put(producto.getId(), producto);
     }
 
 

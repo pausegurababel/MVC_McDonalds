@@ -1,22 +1,32 @@
 package es.babel.McRonalds.model;
 
+
+import jakarta.persistence.*;
+
+@Table(name= "producto")
+@Entity
 public class Producto {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
+    private Integer id;
 
-    private static int contadorId = 0;
-
-    private int id;
-
+    @Column(name = "nombre")
     private String nombre;
 
+    @Column(name = "cantidad")
     private int cantidad;
 
+
+    public Producto(){
+    }
+
     public Producto(String nombre, int cantidad){
-        this.id = contadorId++;
         this.nombre = nombre;
         this.cantidad = cantidad;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
