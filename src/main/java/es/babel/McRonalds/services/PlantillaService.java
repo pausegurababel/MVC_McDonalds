@@ -4,8 +4,10 @@ import es.babel.McRonalds.model.Pedido;
 import es.babel.McRonalds.model.Plantilla;
 import es.babel.McRonalds.model.Trabajador;
 import lombok.Data;
+import org.springframework.stereotype.Service;
 
 @Data
+@Service
 public class PlantillaService implements IPlantillaService {
 
     private Plantilla plantilla;

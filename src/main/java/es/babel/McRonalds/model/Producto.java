@@ -2,10 +2,15 @@ package es.babel.McRonalds.model;
 
 
 import jakarta.persistence.*;
+import lombok.Data;
+
+import java.io.Serializable;
+import java.util.Set;
 
 @Table(name= "producto")
 @Entity
-public class Producto {
+@Data
+public class Producto implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
@@ -17,6 +22,9 @@ public class Producto {
     @Column(name = "cantidad")
     private int cantidad;
 
+    @ManyToMany
+    private Set<Pedido> pedidos;
+
 
     public Producto(){
     }
@@ -26,23 +34,5 @@ public class Producto {
         this.cantidad = cantidad;
     }
 
-    public Integer getId() {
-        return id;
-    }
 
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public int getCantidad() {
-        return cantidad;
-    }
-
-    public void setCantidad(int cantidad) {
-        this.cantidad = cantidad;
-    }
 }
