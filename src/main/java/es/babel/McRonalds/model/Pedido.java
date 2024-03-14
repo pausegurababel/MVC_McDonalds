@@ -5,8 +5,6 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class Plantilla {
-
-    private List<Trabajador> listTrabajadores;
-
+public class Pedido {
+    private List<Producto> listProductos;
 }
