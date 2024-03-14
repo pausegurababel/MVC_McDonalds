@@ -7,5 +7,6 @@ import java.util.List;
 @Data
 public class Plantilla {
 
-    private List<Trabajador> listaTrabajadores;
+    private List<Trabajador> listTrabajadores;
+
 }
