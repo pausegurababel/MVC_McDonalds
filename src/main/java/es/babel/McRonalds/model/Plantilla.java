@@ -8,4 +8,5 @@ import java.util.List;
 public class Plantilla {
 
     private List<Trabajador> listTrabajadores;
+
 }
