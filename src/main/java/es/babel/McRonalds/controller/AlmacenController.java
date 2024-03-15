@@ -4,17 +4,20 @@ import es.babel.McRonalds.model.Almacen;
 import es.babel.McRonalds.model.ModificacionProducto;
 import es.babel.McRonalds.model.Producto;
 import es.babel.McRonalds.services.AlmacenService;
+import es.babel.McRonalds.services.IAlmacenService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-@RestController
+import java.util.HashMap;
+
+@Controller
 @RequestMapping("/almacen")
 public class AlmacenController {
 
-    private AlmacenService almacenService;
+    private IAlmacenService almacenService;
 
-    public AlmacenController(AlmacenService almacenService){
+    public AlmacenController(IAlmacenService almacenService){
         this.almacenService = almacenService;
     }
 
@@ -23,10 +26,11 @@ public class AlmacenController {
         model.addAttribute("almacen", new Almacen());
     }
     @GetMapping("/lista")
-    public Almacen listarAlmacen(Model model){
+    @ResponseBody
+    public HashMap<Integer, Producto> listarAlmacen(Model model){
         Almacen almacen = this.almacenService.getAlmacen();
         model.addAttribute("almacen", almacen);
-        return almacen;
+        return almacen.getMapProductos();
 
     }
     @PostMapping("/productos")
@@ -42,8 +46,9 @@ public class AlmacenController {
     }
 
     @PostMapping("/productos/anadir")
-    public void anadirInventario(@RequestBody ModificacionProducto modificacionProducto, Model model){
-        this.almacenService.modificarExistenciaProductoAlmacen(modificacionProducto);
+    @ResponseBody
+    public void modificarInventario(@RequestBody Producto producto, Model model){
+        this.almacenService.modificarExistenciaProductoAlmacen(producto);
         model.addAttribute("Producto", "Producto modificado");
 
     }
