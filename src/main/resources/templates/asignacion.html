@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Asignar pedido</title>
+</head>
+<body>
+<h1>Asignar pedido</h1>
+<from action="/plantilla/trabajador" method="delete" th:object="${trabajador}">
+    <label for="id"> ID del Trabajador:</label>
+    <input type="number" id="id"> /><br/>
+
+    <button type="submit">BAJA</button>
+</from>
+</body>
+</html>
