@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.List;
 
 @Service
-public class CartaService {
+public class CartaService implements  ICartaService{
 
     private final ProductoRepository productoRepository;
 

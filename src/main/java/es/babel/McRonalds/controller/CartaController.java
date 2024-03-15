@@ -3,6 +3,7 @@ package es.babel.McRonalds.controller;
 import es.babel.McRonalds.model.Carta;
 import es.babel.McRonalds.model.Producto;
 import es.babel.McRonalds.services.CartaService;
+import es.babel.McRonalds.services.ICartaService;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,9 +13,9 @@ import java.util.List;
 @RequestMapping("/carta")
 public class CartaController {
 
-    private CartaService cartaService;
+    private final ICartaService cartaService;
 
-    public CartaController(CartaService cartaService){
+    public CartaController(ICartaService cartaService){
         this.cartaService = cartaService;
     }
 
