@@ -13,3 +13,108 @@
 [INFO ] 2024-03-15 09:36:25.780 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
 [INFO ] 2024-03-15 09:36:25.785 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
 [INFO ] 2024-03-15 09:36:25.793 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 09:39:59.880 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 23144 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 09:39:59.939 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 09:40:02.985 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 09:40:02.989 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 09:40:02.989 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 09:40:03.077 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 09:40:03.196 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 09:40:03.584 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:cf50b233-ad37-456e-a646-099498cfc768 user=SA
+[INFO ] 2024-03-15 09:40:03.587 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 09:40:03.936 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 09:40:04.061 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 09:40:04.134 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 2024-03-15 09:40:05.118 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 09:40:05.122 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 09:40:05.127 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 09:41:13.219 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 11028 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 09:41:13.353 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 09:41:17.490 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 09:41:17.496 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 09:41:17.497 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 09:41:17.660 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 09:41:17.834 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 09:41:18.290 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:aeb3cf2b-fe3b-48ae-8c8f-d75d63f09288 user=SA
+[INFO ] 2024-03-15 09:41:18.293 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 09:41:18.582 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 09:41:18.737 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 09:41:18.820 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 2024-03-15 09:41:20.438 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 09:41:20.445 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 09:41:20.454 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 09:42:28.143 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 13440 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 09:42:28.163 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 09:42:31.169 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 09:42:31.173 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 09:42:31.174 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 09:42:31.266 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 09:42:31.361 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 09:42:31.725 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:a90e9e94-b1d4-4768-804d-9f80eab5c92b user=SA
+[INFO ] 2024-03-15 09:42:31.729 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 09:42:32.051 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 09:42:32.228 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 09:42:32.305 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 2024-03-15 09:42:33.196 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 09:42:33.199 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 09:42:33.203 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 09:43:02.698 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 10980 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 09:43:02.719 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 09:43:05.613 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 09:43:05.617 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 09:43:05.617 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 09:43:05.702 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 09:43:05.786 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 09:43:06.163 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:8096e8dd-12c6-48c2-a56c-7025dda955b1 user=SA
+[INFO ] 2024-03-15 09:43:06.168 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 09:43:06.500 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 09:43:06.618 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 09:43:06.680 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 2024-03-15 09:43:07.710 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 09:43:07.715 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 09:43:07.721 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 09:46:32.686 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 23340 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 09:46:32.709 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 09:46:35.509 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 09:46:35.514 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 09:46:35.515 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 09:46:35.607 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 09:46:35.706 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 09:46:36.158 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:31030bdb-cdb3-4ae7-8fb9-c579c0f77ea4 user=SA
+[INFO ] 2024-03-15 09:46:36.162 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 09:46:36.607 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 09:46:36.746 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 09:46:36.811 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 2024-03-15 09:46:37.792 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 09:46:37.796 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 09:46:37.801 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 09:47:22.103 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 4020 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 09:47:22.126 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 09:47:25.310 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 09:47:25.313 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 09:47:25.313 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 09:47:25.411 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 09:47:25.506 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 09:47:25.820 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:15859ee2-664d-47d5-8276-7cdbf9549806 user=SA
+[INFO ] 2024-03-15 09:47:25.822 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 09:47:26.153 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 09:47:26.288 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 09:47:26.366 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 2024-03-15 09:47:27.335 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 09:47:27.339 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 09:47:27.343 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 09:47:51.586 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 21616 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 09:47:51.605 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 09:47:54.588 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 09:47:54.592 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 09:47:54.593 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 09:47:54.722 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 09:47:54.818 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 09:47:55.161 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:6c2e110b-a8f1-4c82-b032-0a6bb5c308f3 user=SA
+[INFO ] 2024-03-15 09:47:55.165 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 09:47:55.466 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 09:47:55.603 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 09:47:55.672 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 2024-03-15 09:47:56.676 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 09:47:56.681 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 09:47:56.689 [restartedMain] StandardService - Stopping service [Tomcat]

@@ -16,8 +16,8 @@ public class Carta implements Serializable {
     @Column(name = "nombre")
     private String nombre;
 
-    @OneToMany(mappedBy = "carta")
-    private Set<Producto> productos;
+    @ManyToMany(mappedBy = "carta")
+    private Set<Producto> carta;
 
     // Constructor, getters y setters
 }

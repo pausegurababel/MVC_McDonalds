@@ -18,7 +18,7 @@ public class Pedido implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
     private int idPedido;
-    @ManyToMany
+    @ManyToMany(mappedBy = "pedidos")
     private Set<Producto> productos;
 
     public Pedido(){

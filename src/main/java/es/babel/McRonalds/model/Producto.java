@@ -22,7 +22,10 @@ public class Producto implements Serializable {
     @Column(name = "cantidad")
     private int cantidad;
 
-    @ManyToMany
+    @ManyToMany(mappedBy = "carta")
+    private Set<Carta> carta;
+
+    @ManyToMany(mappedBy = "productos")
     private Set<Pedido> pedidos;
 
 
