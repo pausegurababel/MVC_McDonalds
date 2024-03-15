@@ -19,25 +19,30 @@ public class CartaController {
     }
 
     @GetMapping
+    public void carta(Model model){
+        model.addAttribute("carta", new Carta());
+    }
+
+    @GetMapping("/productos")
     public List<Producto> getProductosCarta(Model model){
         model.addAttribute("productos", cartaService.obtenerTodosProductos());
         return cartaService.obtenerTodosProductos();
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/productos/{id}")
     public Producto obtenerProductoPorId(@RequestParam("id") Integer id, Model model) {
         Producto producto = cartaService.obtenerProductoPorId(id);
         model.addAttribute("producto", producto);
         return producto;
     }
 
-    @PostMapping("/agregar")
+    @PostMapping("/productos/agregar")
     public void agregarProducto(@ModelAttribute("producto") Producto producto, Model model) {
         cartaService.agregarProducto(producto);
         model.addAttribute("producto", producto);
     }
 
-    @DeleteMapping("/eliminar")
+    @DeleteMapping("/productos/eliminar")
     public void eliminarProducto(@ModelAttribute("id") int id, Model model) {
         cartaService.eliminarProducto(id);
         model.addAttribute("id", id);
