@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Almacen McRonalds</title>
+    <style>
+        .boton-verde {
+            background-color: #4CAF50; /* Verde */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+
+        .boton-sumar,
+        .boton-restar {
+            background-color: #4CAF50; /* Verde */
+            border: none;
+            color: white;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+            margin-right: 5px; /* Espacio entre los botones */
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .boton-restar {
+            background-color: #f44336; /* Rojo */
+        }
+
+        .boton-confirmar {
+            background-color: #4CAF50; /* Color verde */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <thead>
+    <tr>
+        <th>Nombre</th>
+        <th>Cantidad</th>
+    </tr>
+    </thead>
+    <tbody id="tablaProductos">
+
+    </tbody>
+</table>
+
+<a href="/almacen/formAlmacen" class="boton-verde">Añadir Nuevo Producto</a>
+<script>
+
+    document.addEventListener('DOMContentLoaded', function() {
+        fetch('/almacen/lista')
+            .then(response => response.json())
+            .then(data => {
+                const tablaProductos = document.querySelector('#tablaProductos');
+                tablaProductos.innerHTML = '';
+                Object.entries(data).forEach(([clave, producto]) => {
+                    const fila = document.createElement('tr');
+                    fila.setAttribute('id', producto.id.toString());
+                    fila.innerHTML = `
+                        <td class="nombre">${producto.nombre}</td>
+                        <td class="cantidad">${producto.cantidad}</td>
+                        <td>
+                            <button class="boton-sumar">+</button>
+                            <button class="boton-restar">-</button>
+                        </td>
+                        <td>
+                            <button class="boton-confirmar">Confirmar</button>
+                        </td>
+                    `;
+                    tablaProductos.appendChild(fila);
+                });
+
+                // Registra eventos de clic para botones de sumar y restar
+                document.querySelectorAll('.boton-sumar').forEach(boton => {
+                    boton.addEventListener('click', function() {
+                        const fila = this.closest('tr');
+                        let cantidadActual = parseInt(fila.querySelector('.cantidad').textContent);
+                        cantidadActual++;
+                        fila.querySelector('.cantidad').textContent = cantidadActual;
+                    });
+                });
+
+                document.querySelectorAll('.boton-restar').forEach(boton => {
+                    boton.addEventListener('click', function() {
+                        const fila = this.closest('tr');
+                        let cantidadActual = parseInt(fila.querySelector('.cantidad').textContent);
+                        if (cantidadActual > 0) {
+                            cantidadActual--;
+                            fila.querySelector('.cantidad').textContent = cantidadActual;
+                        }
+                    });
+                });
+
+                // Registra eventos de clic para botones de confirmar cambios
+                document.querySelectorAll('.boton-confirmar').forEach(boton => {
+                    boton.addEventListener('click', function() {
+                        const fila = this.closest('tr');
+                        const productoId = parseInt(fila.getAttribute('id'));
+                        const nombreProducto = fila.querySelector('.nombre').textContent;
+                        const cantidadProducto = parseInt(fila.querySelector('.cantidad').textContent);
+
+                        const producto = {
+                            id: productoId,
+                            nombre: nombreProducto,
+                            cantidad: cantidadProducto
+                        };
+                        fetch('/almacen/productos/anadir', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify(producto)
+                        })
+                            .then(response => {
+                                if (response.ok) {
+                                    console.log('Cambios aplicados con éxito.');
+                                    // Aquí puedes manejar la respuesta del servidor si es necesario
+                                } else {
+                                    console.error('Error al aplicar los cambios:', response.status);
+                                }
+                            })
+                            .catch(error => console.error('Error al aplicar los cambios:', error));
+                    });
+                });
+            })
+            .catch(error => console.error('Error al obtener la información del almacén:', error));
+    });
+</script>
+
+
+
+</body>
+</html>
