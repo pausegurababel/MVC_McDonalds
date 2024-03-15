@@ -13,8 +13,8 @@ import java.util.Set;
 public class Producto implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
-    private Integer id;
+    @Column(name = "id_producto")
+    private Integer idProducto;
 
     @Column(name = "nombre")
     private String nombre;
@@ -22,10 +22,10 @@ public class Producto implements Serializable {
     @Column(name = "cantidad")
     private int cantidad;
 
-    @ManyToMany(mappedBy = "carta")
+    @ManyToMany
     private Set<Carta> carta;
 
-    @ManyToMany(mappedBy = "productos")
+    @ManyToMany
     private Set<Pedido> pedidos;
 
 

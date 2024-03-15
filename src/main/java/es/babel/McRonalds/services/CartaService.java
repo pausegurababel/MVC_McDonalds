@@ -5,14 +5,19 @@ import es.babel.McRonalds.model.ModificacionProducto;
 import es.babel.McRonalds.model.Producto;
 import es.babel.McRonalds.repository.ProductoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.List;
 
+@Service
 public class CartaService {
 
-    @Autowired
-    private ProductoRepository productoRepository;
+    private final ProductoRepository productoRepository;
+
+    public CartaService(ProductoRepository productoRepository){
+        this.productoRepository = productoRepository;
+    }
 
     public List<Producto> obtenerTodosProductos() {
         return productoRepository.findAll();
@@ -29,7 +34,7 @@ public class CartaService {
     public void actualizarProducto(int id, Producto producto) {
         Producto productoExistente = productoRepository.findById(id).orElse(null);
         if (productoExistente != null) {
-            producto.setId(id);
+            producto.setIdProducto(id);
             productoRepository.save(producto);
         }
     }
