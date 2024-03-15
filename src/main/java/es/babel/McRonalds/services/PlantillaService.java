@@ -33,4 +33,8 @@ public class PlantillaService implements IPlantillaService {
         trabajador.setPedido(pedido);
     }
 
+    @Override
+    public Trabajador crearTrabajador(int id, String name) { return new Trabajador(id, name);}
+
+
 }

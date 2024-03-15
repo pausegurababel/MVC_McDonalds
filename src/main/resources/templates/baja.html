@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Baja Trabajador</title>
 </head>
 <body>
 <h1>Baja Trabajador</h1>
-<from th:action="@{/plantilla/trabajador}" method="delete" th:object="${trabajador}">
+<form th:action="@{/plantilla/trabajador}" method="delete" th:object="${trabajador}">
     <label for="id"> ID del Trabajador:</label>
     <input type="number" id="id"> <br/>
 
     <button type="submit">BAJA</button>
-</from>
+</form>
 </body>
 </html>

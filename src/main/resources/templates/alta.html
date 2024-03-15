@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Dar de alta a un trabajador</title>
 </head>
 <body>
     <h1>Alta Trabajador</h1>
-    <from th:action="@{/plantilla/trabajador}" method="post" th:object="${trabajador}">
+    <form th:action="@{/plantilla/trabajador}" method="post" th:object="${trabajador}">
         <label for="id"> ID del Trabajador:</label>
-        <input type="number" id="id"> <br/>
+        <input type="number" id="id" name="id"> <br/>
         <label for="nombre"> Nombre </label>
-        <input type="text" id="nombre"> <br/>
+        <input type="text" id="nombre" name="nombre"> <br/>
 
         <button type="submit">ALTA</button>
-    </from>
+    </form>
 </body>
 </html>

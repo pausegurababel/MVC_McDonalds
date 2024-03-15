@@ -23,16 +23,20 @@ public class PlantillaController {
         model.addAttribute("plantilla", new Plantilla());
     }
     @PostMapping("/trabajador")
-    public void altaTrabajador(@RequestBody Trabajador trabajador, Model model)throws Exception{
+    public String altaTrabajador(@RequestParam(name = "nombre") String nombre,
+                               @RequestParam(name = "id") int id,
+                               Model model)throws Exception{
+        Trabajador trabajador = plantillaService.crearTrabajador(id, nombre);
         plantillaService.altaTrabajador(trabajador);
         model.addAttribute("Trabajador", "Trabajador dado de alta");
+        return "redirect:/plantilla";
     }
 
     @DeleteMapping("/trabajador")
-    public void bajaTrabajador(@RequestBody Trabajador trabajador, Model model)throws Exception{
+    public String bajaTrabajador(@RequestParam(name ="trabajador") Trabajador trabajador, Model model)throws Exception{
         plantillaService.bajaTrabajador(trabajador);
         model.addAttribute("Trabajador", "Trabajador dado de baja");
-
+        return "redirect:/plantilla";
     }
 
     @PostMapping("/trabajador/asignar-pedido")

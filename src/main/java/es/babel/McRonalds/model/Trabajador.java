@@ -2,8 +2,10 @@ package es.babel.McRonalds.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@NoArgsConstructor
 @Table(name = "trabajador")
 @Entity
 public class Trabajador {
@@ -17,4 +19,9 @@ public class Trabajador {
 
     @Column(name = "pedido")
     private Pedido pedido;
+
+    public Trabajador(int id, String name){
+        this.nombre = name;
+        this.id = id;
+    }
 }
