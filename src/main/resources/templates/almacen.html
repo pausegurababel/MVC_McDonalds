@@ -31,12 +31,30 @@
     </tr>
     </thead>
     <tbody>
-    <tr th:each="productoEntry : ${mapaProductos}">
-        <td th:text="${productoEntry.value.nombre}">Nombre</td>
-        <td th:text="${productoEntry.value.cantidad}">Cantidad</td>
-    </tr>
+
     </tbody>
 </table>
+
+<script>
+
+    document.addEventListener('DOMContentLoaded', function() {
+      fetch('')
+        .then(response => response.json())
+        .then(data => {
+          const tablaProductos = document.querySelector('#tablaProductos tbody');
+          tablaProductos.innerHTML = '';
+          Object.entries(data).forEach(([clave, producto]) => {
+          const fila = document.createElement('tr');
+          fila.innerHTML = `
+            <td>${producto.nombre}</td>
+            <td>${producto.cantidad}</td>
+          `;
+          tablaProductos.appendChild(fila);
+        });
+      })
+      .catch(error => console.error('Error al obtener la información del almacén:', error));
+  });
+</script>
 
 <a href="/almacen/formAlmacen" class="boton-verde">Añadir Nuevo Producto</a>
 
