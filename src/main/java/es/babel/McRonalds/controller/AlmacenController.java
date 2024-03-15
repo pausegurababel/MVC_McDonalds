@@ -4,6 +4,7 @@ import es.babel.McRonalds.model.Almacen;
 import es.babel.McRonalds.model.ModificacionProducto;
 import es.babel.McRonalds.model.Producto;
 import es.babel.McRonalds.services.AlmacenService;
+import es.babel.McRonalds.services.IAlmacenService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -14,9 +15,9 @@ import java.util.HashMap;
 @RequestMapping("/almacen")
 public class AlmacenController {
 
-    private AlmacenService almacenService;
+    private IAlmacenService almacenService;
 
-    public AlmacenController(AlmacenService almacenService){
+    public AlmacenController(IAlmacenService almacenService){
         this.almacenService = almacenService;
     }
 

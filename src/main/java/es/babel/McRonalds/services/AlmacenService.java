@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.List;
 
 @Service
-public class AlmacenService {
+public class AlmacenService implements  IAlmacenService {
 
     @Getter
     private Almacen almacen;
@@ -24,11 +24,13 @@ public class AlmacenService {
         this.almacen = new Almacen();
     }
 
+    @Override
     public void anadirNuevoProductoAlmacen(Producto producto){
         HashMap<Integer, Producto> mapProductos = this.almacen.getMapProductos();
         this.almacen.anadirProducto(producto);
     }
 
+    @Override
     public void modificarExistenciaProductoAlmacen(Producto producto){
     HashMap<Integer, Producto> mapProductos = this.almacen.getMapProductos();
     Producto productoExistente = mapProductos.get(producto.getId());
@@ -38,11 +40,15 @@ public class AlmacenService {
     }
 
 
+    @Override
     public Producto crearProducto(String nombre, int cantidad){
         Producto producto = new Producto(nombre,cantidad);
         this.productoRepository.save(producto);
         return producto;
     }
+
+
+
     private void actualizarRepositoryProducto(Producto producto){
         Producto productoExistente = productoRepository.findById(producto.getId()).orElse(null);
         if (productoExistente != null){
