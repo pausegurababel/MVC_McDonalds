@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dar de baja a un trabajador</title>
+</head>
+<body>
+<h1>Baja Trabajador</h1>
+<from action="/plantilla/trabajador/asignar-pedido" method="post" th:object="${trabajador}" th:object="${pedido}">
+    <label for="id_trabajador"> ID del Trabajador: </label>
+    <input type="number" id="id_trabajador"> /><br/>
+
+    <label for="id_pedido">ID del Pedido: </label>
+    <input type="number" id="id_pedido"> /><br/>
+
+    <button type="submit">ASIGNAR</button>
+</from>
+</body>
+</html>
