@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Almacen McRonalds</title>
+    <style>
+        .boton-verde {
+            background-color: #4CAF50; /* Verde */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<table>
+    <thead>
+    <tr>
+        <th>Nombre</th>
+        <th>Cantidad</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="productoEntry : ${mapaProductos}">
+        <td th:text="${productoEntry.value.nombre}">Nombre</td>
+        <td th:text="${productoEntry.value.cantidad}">Cantidad</td>
+    </tr>
+    </tbody>
+</table>
+
+<a href="/almacen/formAlmacen" class="boton-verde">Añadir Nuevo Producto</a>
+
+</body>
+</html>
