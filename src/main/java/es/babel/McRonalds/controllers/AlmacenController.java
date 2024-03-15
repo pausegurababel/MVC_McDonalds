@@ -1,4 +1,4 @@
-package es.babel.McRonalds.controller;
+package es.babel.McRonalds.controllers;
 
 import es.babel.McRonalds.model.Almacen;
 import es.babel.McRonalds.model.ModificacionProducto;
