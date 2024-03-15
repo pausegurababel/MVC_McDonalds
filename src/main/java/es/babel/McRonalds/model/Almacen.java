@@ -18,7 +18,7 @@ public class Almacen {
     }
 
     public void anadirProducto(Producto producto){
-        this.mapProductos.put(producto.getId(), producto);
+        this.mapProductos.put(producto.getIdProducto(), producto);
     }
 
 

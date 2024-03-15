@@ -1,28 +1,23 @@
 package es.babel.McRonalds.model;
 
 import jakarta.persistence.*;
-import lombok.Data;
 
 import java.io.Serializable;
-import java.util.List;
 import java.util.Set;
 
-
 @Entity
-@Data
-@Table(name = "pedido")
-public class Pedido implements Serializable {
-
-
+@Table(name = "carta")
+public class Carta implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name="id_pedido")
-    private int idPedido;
+    @Column(name = "id_carta")
+    private int idCarta;
+
+    @Column(name = "nombre")
+    private String nombre;
 
     @ManyToMany
     private Set<Producto> productos;
 
-    public Pedido(){
-
-    }
+    // Constructor, getters y setters
 }
