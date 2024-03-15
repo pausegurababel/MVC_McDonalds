@@ -10,13 +10,13 @@ import java.util.Set;
 public class Carta implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
-    private int id;
+    @Column(name = "id_carta")
+    private int idCarta;
 
     @Column(name = "nombre")
     private String nombre;
 
-    @OneToMany(mappedBy = "carta")
+    @ManyToMany
     private Set<Producto> productos;
 
     // Constructor, getters y setters

@@ -16,8 +16,9 @@ public class Pedido implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name="id")
+    @Column(name="id_pedido")
     private int idPedido;
+
     @ManyToMany
     private Set<Producto> productos;
 

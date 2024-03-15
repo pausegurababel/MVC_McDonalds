@@ -29,7 +29,7 @@ public class AlmacenService {
 
     public void modificarExistenciaProductoAlmacen(ModificacionProducto modificacionProducto){
     HashMap<Integer, Producto> mapProductos = this.almacen.getMapProductos();
-    Producto productoExistente = mapProductos.get(modificacionProducto.getProducto().getId());
+    Producto productoExistente = mapProductos.get(modificacionProducto.getProducto().getIdProducto());
     productoExistente.setCantidad(modificacionProducto.getProducto().getCantidad() + modificacionProducto.getCantidadModificar());
     }
 

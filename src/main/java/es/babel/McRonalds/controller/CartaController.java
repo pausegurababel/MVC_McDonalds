@@ -3,6 +3,7 @@ package es.babel.McRonalds.controller;
 import es.babel.McRonalds.model.Carta;
 import es.babel.McRonalds.model.Producto;
 import es.babel.McRonalds.services.CartaService;
+import es.babel.McRonalds.services.ICartaService;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,20 +13,20 @@ import java.util.List;
 @RequestMapping("/carta")
 public class CartaController {
 
-    private CartaService cartaService;
+    private final ICartaService cartaService;
 
-    public CartaController(CartaService cartaService){
+    public CartaController(ICartaService cartaService){
         this.cartaService = cartaService;
     }
 
     @GetMapping
-    public void carta(Model model){
-        model.addAttribute("carta", new Carta());
+    public void getCarta(Model model){
+        model.addAttribute("carta", cartaService);
     }
 
     @GetMapping("/productos")
     public List<Producto> getProductosCarta(Model model){
-        model.addAttribute("productos", cartaService.obtenerTodosProductos());
+        model.addAttribute("productos", "productos");
         return cartaService.obtenerTodosProductos();
     }
 
@@ -39,12 +40,12 @@ public class CartaController {
     @PostMapping("/productos/agregar")
     public void agregarProducto(@ModelAttribute("producto") Producto producto, Model model) {
         cartaService.agregarProducto(producto);
-        model.addAttribute("producto", producto);
+        model.addAttribute("producto", "producto agregado");
     }
 
     @DeleteMapping("/productos/eliminar")
     public void eliminarProducto(@ModelAttribute("id") int id, Model model) {
         cartaService.eliminarProducto(id);
-        model.addAttribute("id", id);
+        model.addAttribute("producto", "producto eliminado");
     }
 }
