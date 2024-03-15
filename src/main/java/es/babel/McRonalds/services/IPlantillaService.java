@@ -10,5 +10,4 @@ public interface IPlantillaService {
     void altaTrabajador(Trabajador trabajador) throws Exception;
     void bajaTrabajador(Trabajador trabajador) throws Exception;
     void asignacionPedido(Trabajador trabajador, Pedido pedido) throws Exception;
-    Plantilla getPlantilla();
 }

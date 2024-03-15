@@ -35,12 +35,6 @@ public class PlantillaController {
 
     }
 
-    @GetMapping("/trabajador")
-    public Plantilla getPlantilla(Model model){
-        model.addAttribute("Plantilla","Plantilla");
-        return plantillaService.getPlantilla();
-    }
-
     @PostMapping("/trabajador/asignar-pedido")
     public void asignarPedido(@RequestBody Trabajador trabajador, Pedido pedido, Model model)throws Exception{
         plantillaService.asignacionPedido(trabajador, pedido);
