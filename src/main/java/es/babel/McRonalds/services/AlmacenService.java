@@ -3,7 +3,9 @@ package es.babel.McRonalds.services;
 import es.babel.McRonalds.model.Almacen;
 import es.babel.McRonalds.model.ModificacionProducto;
 import es.babel.McRonalds.model.Producto;
+import es.babel.McRonalds.repository.ProductoRepository;
 import jakarta.persistence.criteria.CriteriaBuilder;
+import lombok.Getter;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
@@ -12,14 +14,14 @@ import java.util.List;
 @Service
 public class AlmacenService {
 
+    @Getter
     private Almacen almacen;
 
-    public AlmacenService(){
-        this.almacen = new Almacen();
-    }
+    private final ProductoRepository productoRepository;
 
-    public Almacen getAlmacen(){
-        return almacen;
+    public AlmacenService(ProductoRepository productoRepository){
+        this.productoRepository = productoRepository;
+        this.almacen = new Almacen();
     }
 
     public void anadirNuevoProductoAlmacen(Producto producto){
@@ -27,15 +29,25 @@ public class AlmacenService {
         this.almacen.anadirProducto(producto);
     }
 
-    public void modificarExistenciaProductoAlmacen(ModificacionProducto modificacionProducto){
+    public void modificarExistenciaProductoAlmacen(Producto producto){
     HashMap<Integer, Producto> mapProductos = this.almacen.getMapProductos();
-    Producto productoExistente = mapProductos.get(modificacionProducto.getProducto().getId());
-    productoExistente.setCantidad(modificacionProducto.getProducto().getCantidad() + modificacionProducto.getCantidadModificar());
+    Producto productoExistente = mapProductos.get(producto.getId());
+    productoExistente.setCantidad(producto.getCantidad());
+    actualizarRepositoryProducto(producto);
+
     }
 
 
     public Producto crearProducto(String nombre, int cantidad){
-        return new Producto(nombre,cantidad);
+        Producto producto = new Producto(nombre,cantidad);
+        this.productoRepository.save(producto);
+        return producto;
+    }
+    private void actualizarRepositoryProducto(Producto producto){
+        Producto productoExistente = productoRepository.findById(producto.getId()).orElse(null);
+        if (productoExistente != null){
+            productoRepository.save(producto);
+        }
     }
 
 
