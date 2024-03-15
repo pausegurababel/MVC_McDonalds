@@ -332,3 +332,39 @@
 [INFO ] 2024-03-15 11:57:51.335 [restartedMain] McRonaldsApplication - Started McRonaldsApplication in 8.875 seconds (process running for 10.853)
 [INFO ] 2024-03-15 12:03:16.934 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
 [INFO ] 2024-03-15 12:03:16.939 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 12:22:32.796 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 23280 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 12:22:32.817 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 12:22:35.892 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 12:22:35.897 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 12:22:35.897 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 12:22:36.000 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 12:22:36.102 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 12:22:36.488 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[INFO ] 2024-03-15 12:22:36.490 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 12:22:36.810 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 12:22:36.933 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 12:22:37.009 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN ] 2024-03-15 12:22:37.527 [restartedMain] deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2024-03-15 12:22:39.190 [restartedMain] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2024-03-15 12:22:40.603 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 12:22:40.676 [restartedMain] McRonaldsApplication - Started McRonaldsApplication in 8.504 seconds (process running for 10.058)
+[INFO ] 2024-03-15 12:22:43.613 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2024-03-15 12:26:05.574 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 12:26:05.579 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 12:26:09.296 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 2496 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 12:26:09.315 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 12:26:12.337 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 12:26:12.344 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 12:26:12.345 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 12:26:12.459 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 12:26:12.569 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 12:26:12.942 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[INFO ] 2024-03-15 12:26:12.944 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 12:26:13.264 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 12:26:13.429 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 12:26:13.504 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN ] 2024-03-15 12:26:14.006 [restartedMain] deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2024-03-15 12:26:15.766 [restartedMain] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2024-03-15 12:26:17.378 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 12:26:17.438 [restartedMain] McRonaldsApplication - Started McRonaldsApplication in 8.684 seconds (process running for 10.271)
+[INFO ] 2024-03-15 12:26:20.253 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'

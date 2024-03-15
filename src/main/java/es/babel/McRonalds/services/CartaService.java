@@ -34,7 +34,6 @@ public class CartaService implements  ICartaService{
     public void actualizarProducto(int id, Producto producto) {
         Producto productoExistente = productoRepository.findById(id).orElse(null);
         if (productoExistente != null) {
-            producto.setIdProducto(id);
             productoRepository.save(producto);
         }
     }
