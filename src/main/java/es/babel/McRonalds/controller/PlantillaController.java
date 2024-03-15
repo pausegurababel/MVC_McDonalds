@@ -5,10 +5,11 @@ import es.babel.McRonalds.model.Plantilla;
 import es.babel.McRonalds.model.Trabajador;
 import es.babel.McRonalds.services.IPlantillaService;
 import es.babel.McRonalds.services.PlantillaService;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-@RestController
+@Controller
 @RequestMapping("/plantilla")
 public class PlantillaController {
     private final IPlantillaService plantillaService;
@@ -18,7 +19,7 @@ public class PlantillaController {
     }
 
     @GetMapping
-    public void plantilla(Model model){
+    public void Plantilla(Model model){
         model.addAttribute("plantilla", new Plantilla());
     }
     @PostMapping("/trabajador")
@@ -34,16 +35,25 @@ public class PlantillaController {
 
     }
 
-    @GetMapping("/trabajador")
-    public Plantilla getPlantilla(Model model){
-        model.addAttribute("Plantilla","Plantilla");
-        return plantillaService.getPlantilla();
-    }
-
     @PostMapping("/trabajador/asignar-pedido")
     public void asignarPedido(@RequestBody Trabajador trabajador, Pedido pedido, Model model)throws Exception{
         plantillaService.asignacionPedido(trabajador, pedido);
         model.addAttribute("Pedido", "Pedido asignado");
 
+    }
+
+    @GetMapping("/alta")
+    public String alta() {
+        return "alta";
+    }
+
+    @GetMapping("/baja")
+    public String baja() {
+        return "baja";
+    }
+
+    @GetMapping("/asignacion")
+    public String asignacion() {
+        return "asignacion";
     }
 }

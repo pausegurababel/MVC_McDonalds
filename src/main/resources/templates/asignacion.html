@@ -2,15 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Asignar pedido</title>
+    <title>Asignar un pedido</title>
 </head>
 <body>
 <h1>Asignar pedido</h1>
-<from action="/plantilla/trabajador" method="delete" th:object="${trabajador}">
-    <label for="id"> ID del Trabajador:</label>
-    <input type="number" id="id"> /><br/>
+<from th:action="@{/plantilla/trabajador/asignar-pedido}" method="post" th:object="${trabajador}" th:object="${pedido}">
+    <label for="id_trabajador"> ID del Trabajador: </label>
+    <input type="number" id="id_trabajador"> /><br/>
 
-    <button type="submit">BAJA</button>
+    <label for="id_pedido">ID del Pedido: </label>
+    <input type="number" id="id_pedido"> /><br/>
+
+    <button type="submit">ASIGNAR</button>
 </from>
 </body>
 </html>
