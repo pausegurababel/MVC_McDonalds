@@ -1,0 +1,1155 @@
+[INFO ] 2024-03-15 09:36:20.262 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 20444 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 09:36:20.309 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 09:36:23.434 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 09:36:23.441 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 09:36:23.442 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 09:36:23.551 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 09:36:23.643 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 09:36:24.060 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:fd082238-842c-4206-86ab-d428deefdab1 user=SA
+[INFO ] 2024-03-15 09:36:24.065 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 09:36:24.410 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 09:36:24.569 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 09:36:24.660 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 2024-03-15 09:36:25.780 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 09:36:25.785 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 09:36:25.793 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 09:39:59.880 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 23144 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 09:39:59.939 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 09:40:02.985 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 09:40:02.989 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 09:40:02.989 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 09:40:03.077 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 09:40:03.196 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 09:40:03.584 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:cf50b233-ad37-456e-a646-099498cfc768 user=SA
+[INFO ] 2024-03-15 09:40:03.587 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 09:40:03.936 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 09:40:04.061 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 09:40:04.134 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 2024-03-15 09:40:05.118 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 09:40:05.122 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 09:40:05.127 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 09:41:13.219 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 11028 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 09:41:13.353 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 09:41:17.490 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 09:41:17.496 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 09:41:17.497 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 09:41:17.660 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 09:41:17.834 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 09:41:18.290 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:aeb3cf2b-fe3b-48ae-8c8f-d75d63f09288 user=SA
+[INFO ] 2024-03-15 09:41:18.293 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 09:41:18.582 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 09:41:18.737 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 09:41:18.820 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 2024-03-15 09:41:20.438 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 09:41:20.445 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 09:41:20.454 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 09:42:28.143 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 13440 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 09:42:28.163 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 09:42:31.169 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 09:42:31.173 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 09:42:31.174 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 09:42:31.266 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 09:42:31.361 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 09:42:31.725 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:a90e9e94-b1d4-4768-804d-9f80eab5c92b user=SA
+[INFO ] 2024-03-15 09:42:31.729 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 09:42:32.051 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 09:42:32.228 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 09:42:32.305 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 2024-03-15 09:42:33.196 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 09:42:33.199 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 09:42:33.203 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 09:43:02.698 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 10980 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 09:43:02.719 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 09:43:05.613 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 09:43:05.617 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 09:43:05.617 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 09:43:05.702 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 09:43:05.786 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 09:43:06.163 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:8096e8dd-12c6-48c2-a56c-7025dda955b1 user=SA
+[INFO ] 2024-03-15 09:43:06.168 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 09:43:06.500 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 09:43:06.618 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 09:43:06.680 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 2024-03-15 09:43:07.710 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 09:43:07.715 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 09:43:07.721 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 09:46:32.686 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 23340 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 09:46:32.709 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 09:46:35.509 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 09:46:35.514 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 09:46:35.515 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 09:46:35.607 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 09:46:35.706 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 09:46:36.158 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:31030bdb-cdb3-4ae7-8fb9-c579c0f77ea4 user=SA
+[INFO ] 2024-03-15 09:46:36.162 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 09:46:36.607 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 09:46:36.746 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 09:46:36.811 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 2024-03-15 09:46:37.792 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 09:46:37.796 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 09:46:37.801 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 09:47:22.103 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 4020 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 09:47:22.126 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 09:47:25.310 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 09:47:25.313 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 09:47:25.313 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 09:47:25.411 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 09:47:25.506 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 09:47:25.820 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:15859ee2-664d-47d5-8276-7cdbf9549806 user=SA
+[INFO ] 2024-03-15 09:47:25.822 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 09:47:26.153 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 09:47:26.288 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 09:47:26.366 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 2024-03-15 09:47:27.335 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 09:47:27.339 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 09:47:27.343 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 09:47:51.586 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 21616 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 09:47:51.605 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 09:47:54.588 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 09:47:54.592 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 09:47:54.593 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 09:47:54.722 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 09:47:54.818 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 09:47:55.161 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:6c2e110b-a8f1-4c82-b032-0a6bb5c308f3 user=SA
+[INFO ] 2024-03-15 09:47:55.165 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 09:47:55.466 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 09:47:55.603 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 09:47:55.672 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 2024-03-15 09:47:56.676 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 09:47:56.681 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 09:47:56.689 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 09:56:43.630 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 1152 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 09:56:43.660 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 09:58:29.636 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 7528 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 09:58:29.657 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 09:58:32.775 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 09:58:32.779 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 09:58:32.779 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 09:58:32.862 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 09:58:32.968 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 09:58:33.358 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:f7f2aa6e-0918-459d-ba94-476bb2e07cfa user=SA
+[INFO ] 2024-03-15 09:58:33.361 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 09:58:33.674 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 09:58:33.840 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 09:58:33.912 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 2024-03-15 09:58:34.885 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 09:58:34.889 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 09:58:34.895 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 09:59:23.464 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 14684 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 09:59:23.490 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 09:59:26.517 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 09:59:26.523 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 09:59:26.524 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 09:59:26.640 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 09:59:26.728 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 09:59:27.105 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:4f863f6d-c572-4819-b0b4-9580224c4b71 user=SA
+[INFO ] 2024-03-15 09:59:27.108 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 09:59:27.426 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 09:59:27.584 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 09:59:27.683 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 2024-03-15 09:59:28.640 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 09:59:28.646 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 09:59:28.655 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 10:37:46.525 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 11408 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 10:37:46.569 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 10:37:50.820 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 10:37:50.824 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 10:37:50.825 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 10:37:50.975 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 10:37:51.070 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 10:37:51.441 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[INFO ] 2024-03-15 10:37:51.445 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 10:37:51.835 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 10:37:51.969 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 10:37:52.106 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN ] 2024-03-15 10:37:52.792 [restartedMain] deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2024-03-15 10:37:53.200 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 10:37:53.204 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 10:37:53.213 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 10:42:48.487 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 4188 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 10:42:48.505 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 10:42:52.529 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 10:42:52.534 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 10:42:52.535 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 10:42:52.660 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 10:42:52.763 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 10:42:53.240 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[INFO ] 2024-03-15 10:42:53.245 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 10:42:53.633 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 10:42:53.786 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 10:42:53.854 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN ] 2024-03-15 10:42:54.563 [restartedMain] deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2024-03-15 10:42:54.985 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 10:42:54.989 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 10:42:54.997 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 10:44:29.664 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 13824 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 10:44:29.695 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 10:44:34.195 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 10:44:34.200 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 10:44:34.201 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 10:44:34.307 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 10:44:34.424 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 10:44:34.798 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[INFO ] 2024-03-15 10:44:34.800 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 10:44:35.199 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 10:44:35.353 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 10:44:35.449 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN ] 2024-03-15 10:44:36.168 [restartedMain] deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2024-03-15 10:44:37.046 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 10:44:37.052 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 10:44:37.058 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 10:46:51.234 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 12400 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 10:46:51.252 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 10:46:54.477 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 10:46:54.484 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 10:46:54.485 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 10:46:54.583 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 10:46:54.705 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 10:46:55.094 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[INFO ] 2024-03-15 10:46:55.098 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 10:46:55.546 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 10:46:55.690 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 10:46:55.788 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN ] 2024-03-15 10:46:56.357 [restartedMain] deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2024-03-15 10:46:57.991 [restartedMain] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2024-03-15 10:46:58.133 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 10:46:58.151 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 10:46:58.154 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 10:47:42.483 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 18900 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 10:47:42.505 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 10:47:45.960 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 10:47:45.963 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 10:47:45.965 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 10:47:46.046 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 10:47:46.143 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 10:47:46.678 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[INFO ] 2024-03-15 10:47:46.681 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 10:47:47.111 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 10:47:47.271 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 10:47:47.370 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN ] 2024-03-15 10:47:48.042 [restartedMain] deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2024-03-15 10:47:49.709 [restartedMain] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2024-03-15 10:47:51.458 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 10:47:51.547 [restartedMain] McRonaldsApplication - Started McRonaldsApplication in 9.864 seconds (process running for 11.956)
+[INFO ] 2024-03-15 10:48:04.793 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2024-03-15 10:50:32.337 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 10:50:32.340 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 11:13:18.062 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 14292 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 11:13:18.092 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 11:13:21.267 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 11:13:21.272 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 11:13:21.272 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 11:13:21.358 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 11:13:21.456 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 11:13:21.819 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[INFO ] 2024-03-15 11:13:21.825 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 11:13:22.171 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 11:13:22.287 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 11:13:22.364 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN ] 2024-03-15 11:13:22.942 [restartedMain] deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2024-03-15 11:13:24.474 [restartedMain] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2024-03-15 11:13:24.584 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 11:13:24.587 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 11:13:24.589 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 11:14:24.479 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 15084 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 11:14:24.503 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 11:14:27.486 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 11:14:27.491 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 11:14:27.491 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 11:14:27.577 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 11:14:27.658 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 11:14:28.005 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[INFO ] 2024-03-15 11:14:28.008 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 11:14:28.443 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 11:14:28.628 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 11:14:28.698 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN ] 2024-03-15 11:14:29.272 [restartedMain] deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2024-03-15 11:14:30.787 [restartedMain] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2024-03-15 11:14:30.909 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 11:14:30.912 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 11:14:30.915 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 11:16:44.930 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 16296 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 11:16:44.957 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 11:16:48.050 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 11:16:48.056 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 11:16:48.057 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 11:16:48.161 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 11:16:48.263 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 11:16:48.644 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[INFO ] 2024-03-15 11:16:48.647 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 11:16:48.977 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 11:16:49.103 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 11:16:49.177 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN ] 2024-03-15 11:16:49.726 [restartedMain] deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2024-03-15 11:16:51.337 [restartedMain] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2024-03-15 11:16:52.790 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 11:16:52.855 [restartedMain] McRonaldsApplication - Started McRonaldsApplication in 8.578 seconds (process running for 10.481)
+[INFO ] 2024-03-15 11:21:32.627 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 11:21:32.632 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 11:21:38.616 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 5768 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 11:21:38.645 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 11:21:42.099 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 11:21:42.103 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 11:21:42.107 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 11:21:42.202 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 11:21:42.294 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 11:21:42.643 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[INFO ] 2024-03-15 11:21:42.648 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 11:21:42.826 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 11:21:42.846 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 11:21:42.850 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 11:24:24.388 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 13348 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 11:24:24.415 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 11:24:27.546 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 11:24:27.550 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 11:24:27.551 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 11:24:27.666 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 11:24:27.754 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 11:24:28.147 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[INFO ] 2024-03-15 11:24:28.151 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 11:24:28.505 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 11:24:28.641 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 11:24:28.713 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN ] 2024-03-15 11:24:29.382 [restartedMain] deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2024-03-15 11:24:31.013 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 11:24:31.016 [restartedMain] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 11:24:31.021 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2024-03-15 11:57:43.143 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 13032 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 11:57:43.169 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 11:57:46.273 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 11:57:46.279 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 11:57:46.279 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 11:57:46.458 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 11:57:46.581 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 11:57:46.922 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[INFO ] 2024-03-15 11:57:46.925 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 11:57:47.241 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 11:57:47.407 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 11:57:47.506 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN ] 2024-03-15 11:57:48.200 [restartedMain] deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2024-03-15 11:57:49.777 [restartedMain] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2024-03-15 11:57:51.270 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 11:57:51.335 [restartedMain] McRonaldsApplication - Started McRonaldsApplication in 8.875 seconds (process running for 10.853)
+[INFO ] 2024-03-15 12:03:16.934 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 12:03:16.939 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 12:22:32.796 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 23280 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 12:22:32.817 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 12:22:35.892 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 12:22:35.897 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 12:22:35.897 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 12:22:36.000 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 12:22:36.102 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 12:22:36.488 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[INFO ] 2024-03-15 12:22:36.490 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 12:22:36.810 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 12:22:36.933 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 12:22:37.009 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN ] 2024-03-15 12:22:37.527 [restartedMain] deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2024-03-15 12:22:39.190 [restartedMain] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2024-03-15 12:22:40.603 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 12:22:40.676 [restartedMain] McRonaldsApplication - Started McRonaldsApplication in 8.504 seconds (process running for 10.058)
+[INFO ] 2024-03-15 12:22:43.613 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2024-03-15 12:26:05.574 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 12:26:05.579 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 12:26:09.296 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 2496 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 12:26:09.315 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 12:26:12.337 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 12:26:12.344 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 12:26:12.345 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 12:26:12.459 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 12:26:12.569 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 12:26:12.942 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[INFO ] 2024-03-15 12:26:12.944 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 12:26:13.264 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 12:26:13.429 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 12:26:13.504 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN ] 2024-03-15 12:26:14.006 [restartedMain] deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2024-03-15 12:26:15.766 [restartedMain] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2024-03-15 12:26:17.378 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 12:26:17.438 [restartedMain] McRonaldsApplication - Started McRonaldsApplication in 8.684 seconds (process running for 10.271)
+[INFO ] 2024-03-15 12:26:20.253 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2024-03-15 13:20:09.766 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 3892 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 13:20:09.795 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 13:20:12.894 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 13:20:12.898 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 13:20:12.898 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 13:20:13.033 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 13:20:13.126 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 13:20:13.522 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[INFO ] 2024-03-15 13:20:13.525 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 13:20:13.853 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 13:20:13.993 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 13:20:14.076 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN ] 2024-03-15 13:20:14.718 [restartedMain] deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2024-03-15 13:20:16.251 [restartedMain] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2024-03-15 13:20:17.914 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 13:20:18.002 [restartedMain] McRonaldsApplication - Started McRonaldsApplication in 9.005 seconds (process running for 11.181)
+[INFO ] 2024-03-15 13:20:25.494 [http-nio-8080-exec-4] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2024-03-15 13:25:26.658 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 13:25:26.664 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 13:25:31.405 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 1124 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 13:25:31.426 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 13:25:34.647 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 13:25:34.652 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 13:25:34.653 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 13:25:34.800 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 13:25:34.889 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 13:25:35.256 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[INFO ] 2024-03-15 13:25:35.258 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 13:25:35.599 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 13:25:35.724 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 13:25:35.865 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN ] 2024-03-15 13:25:36.665 [restartedMain] deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2024-03-15 13:25:38.381 [restartedMain] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2024-03-15 13:25:40.065 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 13:25:40.171 [restartedMain] McRonaldsApplication - Started McRonaldsApplication in 9.541 seconds (process running for 11.742)
+[INFO ] 2024-03-15 13:25:45.736 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[ERROR] 2024-03-15 13:25:46.161 [http-nio-8080-exec-1] TemplateEngine - [THYMELEAF][http-nio-8080-exec-1] Exception processing template "alta": An error happened during template parsing (template: "class path resource [templates/alta.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/alta.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) [thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) [thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) [thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) [thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) [spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) [spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) [spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) [spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) [spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) [spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) [tomcat-embed-core-10.1.19.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) [spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) [tomcat-embed-core-10.1.19.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: org.attoparser.ParseException: Error during execution of processor 'org.thymeleaf.spring6.processor.SpringInputGeneralFieldTagProcessor' (template: "alta" - line 11, col 30)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	... 48 more
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Error during execution of processor 'org.thymeleaf.spring6.processor.SpringInputGeneralFieldTagProcessor' (template: "alta" - line 11, col 30)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:117) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleStandaloneElementEnd(TemplateHandlerAdapterMarkupHandler.java:260) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:256) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleStandaloneElementEnd(OutputExpressionInlinePreProcessorHandler.java:169) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:104) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.attoparser.HtmlVoidElement.handleOpenElementEnd(HtmlVoidElement.java:92) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	... 48 more
+Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'trabajador' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.support.RequestContext.getBindStatus(RequestContext.java:926) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.thymeleaf.spring6.context.webmvc.SpringWebMvcThymeleafRequestContext.getBindStatus(SpringWebMvcThymeleafRequestContext.java:232) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.util.FieldUtils.getBindStatusFromParsedExpression(FieldUtils.java:306) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.util.FieldUtils.getBindStatus(FieldUtils.java:253) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.util.FieldUtils.getBindStatus(FieldUtils.java:227) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.processor.AbstractSpringFieldTagProcessor.doProcess(AbstractSpringFieldTagProcessor.java:174) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleStandaloneElementEnd(TemplateHandlerAdapterMarkupHandler.java:260) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:256) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleStandaloneElementEnd(OutputExpressionInlinePreProcessorHandler.java:169) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:104) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.attoparser.HtmlVoidElement.handleOpenElementEnd(HtmlVoidElement.java:92) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	... 48 more
+[ERROR] 2024-03-15 13:25:46.177 [http-nio-8080-exec-1] [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/alta.html]")] with root cause
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'trabajador' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.support.RequestContext.getBindStatus(RequestContext.java:926) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.thymeleaf.spring6.context.webmvc.SpringWebMvcThymeleafRequestContext.getBindStatus(SpringWebMvcThymeleafRequestContext.java:232) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.util.FieldUtils.getBindStatusFromParsedExpression(FieldUtils.java:306) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.util.FieldUtils.getBindStatus(FieldUtils.java:253) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.util.FieldUtils.getBindStatus(FieldUtils.java:227) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.processor.AbstractSpringFieldTagProcessor.doProcess(AbstractSpringFieldTagProcessor.java:174) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleStandaloneElementEnd(TemplateHandlerAdapterMarkupHandler.java:260) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:256) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleStandaloneElementEnd(OutputExpressionInlinePreProcessorHandler.java:169) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:104) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.attoparser.HtmlVoidElement.handleOpenElementEnd(HtmlVoidElement.java:92) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+[ERROR] 2024-03-15 13:25:50.554 [http-nio-8080-exec-5] TemplateEngine - [THYMELEAF][http-nio-8080-exec-5] Exception processing template "alta": An error happened during template parsing (template: "class path resource [templates/alta.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/alta.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) [thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) [thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) [thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) [thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) [spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) [spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) [spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) [spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) [spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) [spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) [tomcat-embed-core-10.1.19.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) [spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) [tomcat-embed-core-10.1.19.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: org.attoparser.ParseException: Error during execution of processor 'org.thymeleaf.spring6.processor.SpringInputGeneralFieldTagProcessor' (template: "alta" - line 11, col 30)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	... 48 more
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Error during execution of processor 'org.thymeleaf.spring6.processor.SpringInputGeneralFieldTagProcessor' (template: "alta" - line 11, col 30)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:117) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleStandaloneElementEnd(TemplateHandlerAdapterMarkupHandler.java:260) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:256) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleStandaloneElementEnd(OutputExpressionInlinePreProcessorHandler.java:169) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:104) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.attoparser.HtmlVoidElement.handleOpenElementEnd(HtmlVoidElement.java:92) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	... 48 more
+Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'trabajador' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.support.RequestContext.getBindStatus(RequestContext.java:926) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.thymeleaf.spring6.context.webmvc.SpringWebMvcThymeleafRequestContext.getBindStatus(SpringWebMvcThymeleafRequestContext.java:232) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.util.FieldUtils.getBindStatusFromParsedExpression(FieldUtils.java:306) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.util.FieldUtils.getBindStatus(FieldUtils.java:253) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.util.FieldUtils.getBindStatus(FieldUtils.java:227) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.processor.AbstractSpringFieldTagProcessor.doProcess(AbstractSpringFieldTagProcessor.java:174) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleStandaloneElementEnd(TemplateHandlerAdapterMarkupHandler.java:260) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:256) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleStandaloneElementEnd(OutputExpressionInlinePreProcessorHandler.java:169) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:104) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.attoparser.HtmlVoidElement.handleOpenElementEnd(HtmlVoidElement.java:92) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	... 48 more
+[ERROR] 2024-03-15 13:25:50.559 [http-nio-8080-exec-5] [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/alta.html]")] with root cause
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'trabajador' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.support.RequestContext.getBindStatus(RequestContext.java:926) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.thymeleaf.spring6.context.webmvc.SpringWebMvcThymeleafRequestContext.getBindStatus(SpringWebMvcThymeleafRequestContext.java:232) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.util.FieldUtils.getBindStatusFromParsedExpression(FieldUtils.java:306) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.util.FieldUtils.getBindStatus(FieldUtils.java:253) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.util.FieldUtils.getBindStatus(FieldUtils.java:227) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.processor.AbstractSpringFieldTagProcessor.doProcess(AbstractSpringFieldTagProcessor.java:174) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleStandaloneElementEnd(TemplateHandlerAdapterMarkupHandler.java:260) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:256) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleStandaloneElementEnd(OutputExpressionInlinePreProcessorHandler.java:169) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:104) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.attoparser.HtmlVoidElement.handleOpenElementEnd(HtmlVoidElement.java:92) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+[INFO ] 2024-03-15 13:30:19.891 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 13:30:19.895 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 13:31:34.053 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 7152 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 13:31:34.078 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 13:31:38.301 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 13:31:38.307 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 13:31:38.308 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 13:31:38.470 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 13:31:38.582 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 13:31:38.938 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[INFO ] 2024-03-15 13:31:38.940 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 13:31:39.290 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 13:31:39.444 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 13:31:39.544 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN ] 2024-03-15 13:31:40.275 [restartedMain] deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2024-03-15 13:31:42.068 [restartedMain] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2024-03-15 13:31:43.630 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 13:31:43.696 [restartedMain] McRonaldsApplication - Started McRonaldsApplication in 10.253 seconds (process running for 11.801)
+[INFO ] 2024-03-15 13:36:14.899 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2024-03-15 13:38:08.987 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 13:38:08.992 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 13:41:02.353 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 8516 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 13:41:02.377 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 13:41:05.349 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 13:41:05.357 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 13:41:05.359 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 13:41:05.526 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 13:41:05.612 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 13:41:05.957 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[INFO ] 2024-03-15 13:41:05.960 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 13:41:06.294 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 13:41:06.410 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 13:41:06.484 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN ] 2024-03-15 13:41:07.044 [restartedMain] deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2024-03-15 13:41:08.462 [restartedMain] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2024-03-15 13:41:09.972 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 13:41:10.024 [restartedMain] McRonaldsApplication - Started McRonaldsApplication in 8.428 seconds (process running for 10.103)
+[INFO ] 2024-03-15 13:41:31.372 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2024-03-15 13:42:40.702 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 13:42:40.706 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 13:42:44.682 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 23056 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 13:42:44.703 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 13:42:47.834 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 13:42:47.839 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 13:42:47.839 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 13:42:47.939 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 13:42:48.033 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 13:42:48.364 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[INFO ] 2024-03-15 13:42:48.366 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 13:42:48.691 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 13:42:48.852 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 13:42:48.934 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN ] 2024-03-15 13:42:49.554 [restartedMain] deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2024-03-15 13:42:50.918 [restartedMain] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2024-03-15 13:42:52.451 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 13:42:52.524 [restartedMain] McRonaldsApplication - Started McRonaldsApplication in 8.493 seconds (process running for 10.395)
+[INFO ] 2024-03-15 13:43:12.302 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2024-03-15 13:43:46.658 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 13:43:46.660 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 13:43:50.314 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 3924 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 13:43:50.338 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 13:43:53.431 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 13:43:53.437 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 13:43:53.437 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 13:43:53.561 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 13:43:53.657 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 13:43:53.997 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[INFO ] 2024-03-15 13:43:54.001 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 13:43:54.316 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 13:43:54.459 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 13:43:54.540 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN ] 2024-03-15 13:43:55.088 [restartedMain] deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2024-03-15 13:43:56.570 [restartedMain] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2024-03-15 13:43:58.013 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 13:43:58.068 [restartedMain] McRonaldsApplication - Started McRonaldsApplication in 8.415 seconds (process running for 10.138)
+[INFO ] 2024-03-15 13:44:04.223 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2024-03-15 13:45:24.446 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 13:45:24.449 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 13:49:04.808 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 13560 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 13:49:04.828 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 13:49:08.570 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 13:49:08.575 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 13:49:08.576 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 13:49:08.681 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 13:49:08.797 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 13:49:09.198 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[INFO ] 2024-03-15 13:49:09.202 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 13:49:09.595 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 13:49:09.792 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 13:49:09.873 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN ] 2024-03-15 13:49:10.556 [restartedMain] deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2024-03-15 13:49:12.135 [restartedMain] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2024-03-15 13:49:14.080 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 13:49:14.164 [restartedMain] McRonaldsApplication - Started McRonaldsApplication in 10.161 seconds (process running for 11.685)
+[INFO ] 2024-03-15 13:49:20.512 [http-nio-8080-exec-1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[ERROR] 2024-03-15 13:52:24.305 [http-nio-8080-exec-6] TemplateEngine - [THYMELEAF][http-nio-8080-exec-6] Exception processing template "alta": An error happened during template parsing (template: "class path resource [templates/alta.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/alta.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) [thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) [thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) [thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) [thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) [spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) [spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) [spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) [spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) [spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) [spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) [tomcat-embed-core-10.1.19.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) [spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) [tomcat-embed-core-10.1.19.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: org.attoparser.ParseException: Error during execution of processor 'org.thymeleaf.spring6.processor.SpringInputGeneralFieldTagProcessor' (template: "alta" - line 11, col 30)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	... 48 more
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Error during execution of processor 'org.thymeleaf.spring6.processor.SpringInputGeneralFieldTagProcessor' (template: "alta" - line 11, col 30)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:117) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleStandaloneElementEnd(TemplateHandlerAdapterMarkupHandler.java:260) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:256) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleStandaloneElementEnd(OutputExpressionInlinePreProcessorHandler.java:169) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:104) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.attoparser.HtmlVoidElement.handleOpenElementEnd(HtmlVoidElement.java:92) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	... 48 more
+Caused by: java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'trabajador' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.support.RequestContext.getBindStatus(RequestContext.java:926) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.thymeleaf.spring6.context.webmvc.SpringWebMvcThymeleafRequestContext.getBindStatus(SpringWebMvcThymeleafRequestContext.java:232) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.util.FieldUtils.getBindStatusFromParsedExpression(FieldUtils.java:306) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.util.FieldUtils.getBindStatus(FieldUtils.java:253) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.util.FieldUtils.getBindStatus(FieldUtils.java:227) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.processor.AbstractSpringFieldTagProcessor.doProcess(AbstractSpringFieldTagProcessor.java:174) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleStandaloneElementEnd(TemplateHandlerAdapterMarkupHandler.java:260) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:256) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleStandaloneElementEnd(OutputExpressionInlinePreProcessorHandler.java:169) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:104) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.attoparser.HtmlVoidElement.handleOpenElementEnd(HtmlVoidElement.java:92) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	... 48 more
+[ERROR] 2024-03-15 13:52:24.323 [http-nio-8080-exec-6] [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/alta.html]")] with root cause
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'trabajador' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.support.RequestContext.getBindStatus(RequestContext.java:926) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.thymeleaf.spring6.context.webmvc.SpringWebMvcThymeleafRequestContext.getBindStatus(SpringWebMvcThymeleafRequestContext.java:232) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.util.FieldUtils.getBindStatusFromParsedExpression(FieldUtils.java:306) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.util.FieldUtils.getBindStatus(FieldUtils.java:253) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.util.FieldUtils.getBindStatus(FieldUtils.java:227) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.processor.AbstractSpringFieldTagProcessor.doProcess(AbstractSpringFieldTagProcessor.java:174) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleStandaloneElementEnd(TemplateHandlerAdapterMarkupHandler.java:260) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:256) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleStandaloneElementEnd(OutputExpressionInlinePreProcessorHandler.java:169) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleStandaloneElementEnd(InlinedOutputExpressionMarkupHandler.java:104) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.attoparser.HtmlVoidElement.handleOpenElementEnd(HtmlVoidElement.java:92) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+[ERROR] 2024-03-15 13:52:28.988 [http-nio-8080-exec-9] TemplateEngine - [THYMELEAF][http-nio-8080-exec-9] Exception processing template "asignacion": An error happened during template parsing (template: "class path resource [templates/asignacion.html]" - line 9, col 99)
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/asignacion.html]" - line 9, col 99)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:239) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) [thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) [thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) [thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) [thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) [spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) [spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) [spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) [spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) [spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) [spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) [tomcat-embed-core-10.1.19.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) [spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) [tomcat-embed-core-10.1.19.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: org.attoparser.ParseException: (Line = 9, Column = 99) Malformed markup: Attribute "th:object" appears more than once in element
+	at org.attoparser.MarkupEventProcessorHandler.handleAttribute(MarkupEventProcessorHandler.java:549) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.ParsingAttributeSequenceUtil.parseAttributeSequence(ParsingAttributeSequenceUtil.java:275) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:153) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	... 48 more
+[ERROR] 2024-03-15 13:52:28.993 [http-nio-8080-exec-9] [dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/asignacion.html]" - line 9, col 99)] with root cause
+org.attoparser.ParseException: (Line = 9, Column = 99) Malformed markup: Attribute "th:object" appears more than once in element
+	at org.attoparser.MarkupEventProcessorHandler.handleAttribute(MarkupEventProcessorHandler.java:549) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.ParsingAttributeSequenceUtil.parseAttributeSequence(ParsingAttributeSequenceUtil.java:275) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:153) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.7.RELEASE.jar:2.0.7.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.2.RELEASE.jar:3.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) [tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+[INFO ] 2024-03-15 13:57:58.249 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 13:57:58.251 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2024-03-15 13:58:03.126 [restartedMain] McRonaldsApplication - Starting McRonaldsApplication using Java 17.0.10 with PID 21456 (C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds\target\classes started by miguel.mier in C:\Users\miguel.mier\Desktop\BootCamp\Sesion 12\McRonalds\McRonalds)
+[INFO ] 2024-03-15 13:58:03.143 [restartedMain] McRonaldsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2024-03-15 13:58:06.537 [restartedMain] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 13:58:06.542 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2024-03-15 13:58:06.542 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+[INFO ] 2024-03-15 13:58:06.631 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2024-03-15 13:58:06.723 [restartedMain] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2024-03-15 13:58:07.204 [restartedMain] HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+[INFO ] 2024-03-15 13:58:07.207 [restartedMain] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2024-03-15 13:58:07.607 [restartedMain] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2024-03-15 13:58:07.757 [restartedMain] Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+[INFO ] 2024-03-15 13:58:07.823 [restartedMain] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN ] 2024-03-15 13:58:08.577 [restartedMain] deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2024-03-15 13:58:10.083 [restartedMain] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2024-03-15 13:58:11.754 [restartedMain] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2024-03-15 13:58:11.896 [restartedMain] McRonaldsApplication - Started McRonaldsApplication in 9.418 seconds (process running for 11.149)
+[INFO ] 2024-03-15 13:58:12.130 [http-nio-8080-exec-3] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2024-03-15 14:01:20.430 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2024-03-15 14:01:20.433 [SpringApplicationShutdownHook] HikariDataSource - HikariPool-1 - Shutdown completed.

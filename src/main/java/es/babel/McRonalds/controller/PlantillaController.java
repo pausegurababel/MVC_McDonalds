@@ -22,6 +22,7 @@ public class PlantillaController {
     public void Plantilla(Model model){
         model.addAttribute("plantilla", new Plantilla());
     }
+
     @PostMapping("/trabajador")
     public void altaTrabajador(@RequestBody Trabajador trabajador, Model model)throws Exception{
         plantillaService.altaTrabajador(trabajador);
@@ -41,6 +42,7 @@ public class PlantillaController {
         model.addAttribute("Pedido", "Pedido asignado");
 
     }
+
 
     @GetMapping("/alta")
     public String alta() {

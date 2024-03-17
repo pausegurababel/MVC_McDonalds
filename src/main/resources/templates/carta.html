@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Productos</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .boton-verde {
+            background-color: #4CAF50; /* Verde */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+<h1>Lista de Productos</h1>
+
+<!-- Mostrar la lista de productos en una tabla
+<table>
+    <thead>
+    <tr>
+        <th>Nombre</th>
+        <th>Cantidad</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="producto : ${productos}">
+        <td th:text="${producto.nombre}"></td>
+        <td th:text="${producto.cantidad}"></td>
+    </tr>
+    </tbody>
+</table>-->
+
+<hr>
+
+<!-- Formulario para agregar un nuevo producto -->
+<h2>Agregar Nuevo Producto</h2>
+<form th:action="@{/carta/productos/agregar}" method="post" th:object="${producto}">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <br>
+    <label for="cantidad">Cantidad:</label>
+    <input type="number" id="cantidad" name="cantidad" required>
+    <br>
+    <a class="boton-verde" type="submit">Agregar Producto</a>
+</form>
+
+<!-- Formulario para actualizar un producto -->
+<h2>Actualizar Producto</h2>
+<form th:action="@{/carta/productos/actualizar" method="post" th:object="${id}">
+    <label for="idActualizar">ID del Producto:</label>
+    <input type="number" id="idActualizar" name="idActualizar" required>
+    <br>
+    <label for="nombreActualizar">Nuevo Nombre:</label>
+    <input type="text" id="nombreActualizar" name="nombreActualizar" required>
+    <br>
+    <label for="cantidadActualizar">Nueva Cantidad:</label>
+    <input type="number" id="cantidadActualizar" name="cantidadActualizar" required>
+    <br>
+    <a class="boton-verde" type="submit">Actualizar Producto</a>
+
+</form>
+
+<!-- Formulario para eliminar un producto -->
+<h2>Eliminar Producto</h2>
+<form th:action="@{/carta/productos/eliminar}" method="post" th:object="${id}">
+    <label for="idEliminar">ID del Producto:</label>
+    <input type="number" id="idEliminar" name="idEliminar" required>
+    <a class="boton-verde" type="submit">Eliminar Producto</a>
+
+</form>
+
+</body>
+</html>

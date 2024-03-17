@@ -33,7 +33,7 @@ public class AlmacenService implements  IAlmacenService {
     @Override
     public void modificarExistenciaProductoAlmacen(Producto producto){
     HashMap<Integer, Producto> mapProductos = this.almacen.getMapProductos();
-    Producto productoExistente = mapProductos.get(producto.getId());
+    Producto productoExistente = mapProductos.get(producto.getIdProducto());
     productoExistente.setCantidad(producto.getCantidad());
     actualizarRepositoryProducto(producto);
 
@@ -50,7 +50,7 @@ public class AlmacenService implements  IAlmacenService {
 
 
     private void actualizarRepositoryProducto(Producto producto){
-        Producto productoExistente = productoRepository.findById(producto.getId()).orElse(null);
+        Producto productoExistente = productoRepository.findById(producto.getIdProducto()).orElse(null);
         if (productoExistente != null){
             productoRepository.save(producto);
         }

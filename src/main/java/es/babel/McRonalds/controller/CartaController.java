@@ -37,15 +37,23 @@ public class CartaController {
         return producto;
     }
 
-    @PostMapping("/productos/agregar")
+    @PostMapping("/productos/agregar/{producto}")
     public void agregarProducto(@ModelAttribute("producto") Producto producto, Model model) {
         cartaService.agregarProducto(producto);
         model.addAttribute("producto", "producto agregado");
     }
 
-    @DeleteMapping("/productos/eliminar")
+    @DeleteMapping("/productos/eliminar/{id}")
     public void eliminarProducto(@ModelAttribute("id") int id, Model model) {
         cartaService.eliminarProducto(id);
         model.addAttribute("producto", "producto eliminado");
     }
+
+    @PutMapping("/productos/actualizar/{id}")
+    public void actualizarProducto(@ModelAttribute("producto") Producto producto, Model model){
+        cartaService.actualizarProducto(producto.getIdProducto(), producto);
+        model.addAttribute("producto", "producto actualizado");
+
+    }
+
 }
